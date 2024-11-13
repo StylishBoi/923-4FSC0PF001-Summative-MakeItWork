@@ -129,6 +129,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="923-4FSC0PF001-Summative-MakeItWork.cpp" />
+    <ClCompile Include="entity.cc" />
+    <ClCompile Include="game.cc" />
+    <ClCompile Include="invader.cc" />
+    <ClCompile Include="projectile.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="entity.h" />
+    <ClInclude Include="game.h" />
+    <ClInclude Include="invader.h" />
+    <ClInclude Include="projectile.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
